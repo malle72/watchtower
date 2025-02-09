@@ -1,0 +1,1 @@
+This directory is for any data that is collected from already existing static sources. So any collection of data you find that is relevant to the project can either be placed here or a link to it can be. If possible, include a script that can parse the dataset. 

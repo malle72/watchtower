@@ -1,0 +1,1 @@
+This directory is for scripts that access relevant data via API. 
