@@ -1,0 +1,23 @@
+.collapsible {
+    margin-bottom: 10px;
+}
+
+.collapsible-button {
+    background-color: #eee;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: 1px solid red;
+}
+
+.collapsible-content.active {
+    max-height: 500px; /* Adjust this value as needed */
+}
