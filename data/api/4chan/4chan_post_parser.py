@@ -19,7 +19,7 @@ def sanitize_and_format(text):
     text = url_pattern.sub('', text)
     text = username_pattern.sub('', text)
     text = greentext_pattern.sub('', text)
-    text = newline_pattern.sub('', text)
+    text = newline_pattern.sub(' ', text)
     text = re.sub(safetext_pattern, '', text)
     text = html.escape(text)
     return text
